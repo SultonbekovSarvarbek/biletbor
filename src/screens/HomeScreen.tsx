@@ -29,7 +29,7 @@ export default function HomeScreen() {
     <ScrollView style={{ flex: 1, backgroundColor: colors.bg }} contentContainerStyle={{ paddingTop: insets.top + space(2), paddingBottom: 120 }}>
       <View style={st.header}>
         <View>
-          <Text style={st.logo}>bilet<Text style={{ color: colors.accent }}>bor</Text></Text>
+          <Text style={st.logo}>bilet<Text style={{ color: colors.accent }}>o</Text></Text>
           <Pressable onPress={() => setCityOpen(true)} style={st.cityBtn}>
             <Ionicons name="location" size={14} color={colors.accent} />
             <Text style={st.cityText}>{city}</Text>

@@ -1,5 +1,5 @@
 {
-  "name": "biletbor",
+  "name": "bileto",
   "version": "1.0.0",
   "main": "index.ts",
   "dependencies": {
